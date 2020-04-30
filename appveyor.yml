@@ -13,7 +13,7 @@ version: 0.1.{build}
 image: Visual Studio 2019
 
 # clone directory
-clone_folder: c:\projects\VL.Devices.AzureKinect
+clone_folder: c:\projects\VL.Devices.AzureKinect.Body
 
 branches:
   only:
