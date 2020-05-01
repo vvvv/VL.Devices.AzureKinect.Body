@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="UOWYOygckqsODlkddXkKiP" LanguageVersion="2020.1.0.53" Version="0.128">
+<Document xmlns:p="property" Id="Nh38Z7rdJauN4uoSAqadQp" LanguageVersion="2020.1.0.53" Version="0.128">
   <NugetDependency Id="NkxBtTr8hOoNigSpbcTFdR" Location="VL.CoreLib" Version="2020.1.0" />
   <Patch Id="APFBYc3ryadNMXCUycaQDK">
     <Canvas Id="VZxxHWhqYjuLlXlvDdCXIG" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -38,7 +38,7 @@
             <Pin Id="LEy95dR6rymPjbgduOaEv5" Name="Device" Kind="InputPin" />
             <Pin Id="K4xnyHJEJ4GOt1EWt4XTRU" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="559,484,66,19" Id="JBtgFOuZXJnPIyc5R1Uz1O">
+          <Node Bounds="663,481,66,19" Id="JBtgFOuZXJnPIyc5R1Uz1O">
             <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="BodyImage" />
@@ -47,7 +47,7 @@
             <Pin Id="B7p1GQqRDlpNW3sVW7xvd4" Name="Device" Kind="InputPin" />
             <Pin Id="KZVJRsmer5dM25mToTjXp5" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GlM5yqOoRsCOk3jO9uuELs" Bounds="547,611,239,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-index-map">
+          <Pad Id="GlM5yqOoRsCOk3jO9uuELs" Bounds="756,577,239,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-index-map">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -56,7 +56,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="AVtOtPDR4WNN3w4cjitSYI" Bounds="547,592,236,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking index map">
+          <Pad Id="AVtOtPDR4WNN3w4cjitSYI" Bounds="756,558,236,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking index map">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +65,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IFiUxNyIr6NPKYE4MeVxOK" Bounds="117,711,238,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-joints">
+          <Pad Id="IFiUxNyIr6NPKYE4MeVxOK" Bounds="117,692,238,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-joints">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VWQTnIHJyZQNnAQB5DEQ6E" Bounds="117,691,207,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking joints">
+          <Pad Id="VWQTnIHJyZQNnAQB5DEQ6E" Bounds="117,672,207,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking joints">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -119,18 +119,19 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="115,556,129,86" Id="GignFY0ghbyNjnA5GCHTtU">
+          <Node Bounds="115,556,359,86" Id="GignFY0ghbyNjnA5GCHTtU">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="AmSoGFsUzOSLqOCO7nMgnq" Name="Break" Kind="OutputPin" />
+            <ControlPoint Id="Mv6VJmyIKZzMWkfzYwBcBK" Bounds="129,562" Alignment="Top" />
             <Patch Id="RTGaj0uWTvoNSmTmWBP3lW" ManuallySortedPins="true">
               <Patch Id="Fq59AiNi2F4P2qZnTDmVPz" Name="Create" ManuallySortedPins="true" />
               <Patch Id="VPVlK3DjwV2PJQuZe6Sf93" Name="Update" ManuallySortedPins="true" />
               <Patch Id="EbohkJ3bLyGMLK2ZsZoZwI" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="127,583,105,26" Id="GMSOUpL2p9CQGcSnLKg7w0">
+              <Node Bounds="357,585,105,26" Id="GMSOUpL2p9CQGcSnLKg7w0">
                 <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Skeleton" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Split" />
@@ -140,14 +141,38 @@
                 <Pin Id="LJkfqZ1WVeuPVv0hszqEcw" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="As46euo6p2iO6PCcTnGZt1" Name="Id" Kind="OutputPin" />
                 <Pin Id="NgMSuzoT3eeMrrLdLLQLzA" Name="Joint Positions" Kind="OutputPin" />
-                <Pin Id="G33gfAztzk8QEJhZrmxFwj" Name="Confidence Levels" Kind="OutputPin" />
-                <Pin Id="CZCcyoWtAT1Nng3SSyGZRR" Name="Joint Types" Kind="OutputPin" />
                 <Pin Id="JPjqlOZBhoINTi6zYdx4Wb" Name="Joint Quaternions" Kind="OutputPin" />
+                <Pin Id="CZCcyoWtAT1Nng3SSyGZRR" Name="Joint Types" Kind="OutputPin" />
+                <Pin Id="G33gfAztzk8QEJhZrmxFwj" Name="Joint Confidence Levels" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="127,584,65,19" Id="EjT9Ax60r61MaInrWOLHDe">
+                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Stickman" />
+                </p:NodeReference>
+                <Pin Id="A2Ed8YXJJWoL0J7eVh8ctD" Name="Input" Kind="InputPin" />
+                <Pin Id="Hs5xzX8xZytOIJIOQwDCpu" Name="Color" Kind="InputPin" />
+                <Pin Id="RTxw3oRq8LrLqm2CRui0s2" Name="Stroke Width" Kind="InputPin" />
+                <Pin Id="FHIUU80MS0ANmyH7n54dq0" Name="Enabled" Kind="InputPin" />
+                <Pin Id="G4UMcWV0jsiORNUAZ6Fy2z" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="211,584,125,19" Id="IkS3W013JMrOAfhFPZR9j1">
+                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Boxman" />
+                </p:NodeReference>
+                <Pin Id="PrksQsFeWMqPPyDoLQYvHC" Name="Input" Kind="InputPin" />
+                <Pin Id="Ra2gALG2HYTLcbXRZWOxEO" Name="Color" Kind="InputPin" />
+                <Pin Id="KP4aFBMT2dnOR7TcUhKps2" Name="Stroke Width" Kind="InputPin" />
+                <Pin Id="HcL9IaMNbugPa3GX8eYoxj" Name="Show Boxes" Kind="InputPin" />
+                <Pin Id="Rf8CJIIUsnCPk31Zl47uAY" Name="Show Axis" Kind="InputPin" />
+                <Pin Id="LPuwEVPgsqcL89MMFq7UuG" Name="Show Labels" Kind="InputPin" />
+                <Pin Id="QIpNmBOPUj1QVJAMTMS5nC" Name="Enabled" Kind="InputPin" />
+                <Pin Id="RsWQjlN60WDNrft5hQfTlF" Name="Output" Kind="OutputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="Mv6VJmyIKZzMWkfzYwBcBK" Bounds="129,562" Alignment="Top" />
           </Node>
-          <Pad Id="Kuh7kWcPRADMafue5hCW4s" Bounds="649,488,171,65" ShowValueBox="true" isIOBox="true" Value="&lt; Returns an image with the segmentation map for each detected body&#xD;&#xA;&#xD;&#xA;">
+          <Pad Id="Kuh7kWcPRADMafue5hCW4s" Bounds="753,485,171,65" ShowValueBox="true" isIOBox="true" Value="&lt; Returns an image with the segmentation map for each detected body&#xD;&#xA;&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -156,7 +181,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EJQFUBr0tEoMzWByOBHtcT" Bounds="344,795,246,153" ShowValueBox="true" isIOBox="true" Value="Both Skeletons and BodyImage are also available as &quot;Reactive&quot; versions in the nodebrowser if you enable &quot;Advanced&quot; nodes. &#xD;&#xA;&#xD;&#xA;The reactive versions allow you to apply computations to the images in a background thread.">
+          <Pad Id="EJQFUBr0tEoMzWByOBHtcT" Bounds="386,768,246,153" ShowValueBox="true" isIOBox="true" Value="Both Skeletons and BodyImage are also available as &quot;Reactive&quot; versions in the nodebrowser if you enable &quot;Advanced&quot; nodes. &#xD;&#xA;&#xD;&#xA;The reactive versions allow you to apply computations to the images in a background thread.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GcYIAWsjwbQMTeEn1U0z9f" Bounds="482,590,223,141" ShowValueBox="true" isIOBox="true" Value="&lt; A skeleton can be quickly drawn using Stickman or  Boxman or split into its components using a Split [Skeleton] node.&#xD;&#xA;&#xD;&#xA;Stickman and Boxman require VL.Skia3d for drawing!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -180,6 +214,8 @@
         <Link Id="U3jZ27xMfWoPy6khuXRZbg" Ids="ChsKYEl4MhPOHmsVeS1Z7i,IP1K92mElD5MouWz37rHXk" />
         <Link Id="PKTYI8NkpvWM36eRZzGClP" Ids="K4xnyHJEJ4GOt1EWt4XTRU,Mv6VJmyIKZzMWkfzYwBcBK" />
         <Link Id="KP5qpF810TnNRSAJBcNSS4" Ids="Mv6VJmyIKZzMWkfzYwBcBK,C5DwC4MSDKnNf7M90cF1TP" />
+        <Link Id="E8W2YPDYLfIPQpmPAO8QFI" Ids="Mv6VJmyIKZzMWkfzYwBcBK,A2Ed8YXJJWoL0J7eVh8ctD" />
+        <Link Id="FEvVC5K31TUL9tlNTITQpn" Ids="Mv6VJmyIKZzMWkfzYwBcBK,PrksQsFeWMqPPyDoLQYvHC" />
       </Patch>
     </Node>
   </Patch>

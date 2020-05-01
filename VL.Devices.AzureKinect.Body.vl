@@ -374,28 +374,28 @@
     ************************ Skeleton ************************
 
 -->
-      <Node Name="Skeleton" Bounds="372,429" Id="Cdb5aIEBviXNCVhenQqqP8">
+      <Node Name="Skeleton" Bounds="371,478" Id="Cdb5aIEBviXNCVhenQqqP8">
         <p:NodeReference>
           <Choice Kind="RecordDefinition" Name="Record" />
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <Patch Id="LhwMCj3Z3PBLjIwa24iS0Y">
           <Canvas Id="CyFSZxZXak1MeSnQuUfQlN" CanvasType="Group">
-            <Pad Id="Rb40iWD6hjpOiPrSEUArXe" SlotId="Bc6eriMwURZL7ilwc3pEzD" Bounds="429,159" />
-            <Pad Id="SMTyLy2QGDaL3wsKMxmDbn" SlotId="EWatiHRUBj1PbJ8LvCtAgF" Bounds="573,159" />
-            <ControlPoint Id="LV9RW69qqFrNG5enzXhr2E" Bounds="429,129" />
-            <ControlPoint Id="LXtXip7L4I5PwJzXHzSDbI" Bounds="573,129" />
-            <ControlPoint Id="HcETYyY8kYKOaB4a2WtVMh" Bounds="573,189" />
-            <Node Bounds="414,352,548,320" Id="MzH24rdwJuNLytVpHEKU3W">
+            <Pad Id="Rb40iWD6hjpOiPrSEUArXe" SlotId="Bc6eriMwURZL7ilwc3pEzD" Bounds="251,193" />
+            <Pad Id="SMTyLy2QGDaL3wsKMxmDbn" SlotId="EWatiHRUBj1PbJ8LvCtAgF" Bounds="395,193" />
+            <ControlPoint Id="LV9RW69qqFrNG5enzXhr2E" Bounds="251,163" />
+            <ControlPoint Id="LXtXip7L4I5PwJzXHzSDbI" Bounds="395,163" />
+            <ControlPoint Id="HcETYyY8kYKOaB4a2WtVMh" Bounds="395,223" />
+            <Node Bounds="236,393,391,334" Id="MzH24rdwJuNLytVpHEKU3W">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="Repeat" />
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
-              <ControlPoint Id="P3PcdXamMRmOk6hfotkmFl" Bounds="502,667" Alignment="Bottom" />
-              <ControlPoint Id="PTUhCZOgvseLz6DkW14vVw" Bounds="638,667" Alignment="Bottom" />
-              <ControlPoint Id="LB2pVCa6yuTM1jWLkxfDPV" Bounds="753,667" Alignment="Bottom" />
-              <ControlPoint Id="U4pGG8bPsSENAHX2WignVc" Bounds="892,667" Alignment="Bottom">
+              <ControlPoint Id="P3PcdXamMRmOk6hfotkmFl" Bounds="324,722" Alignment="Bottom" />
+              <ControlPoint Id="PTUhCZOgvseLz6DkW14vVw" Bounds="610,722" Alignment="Bottom" />
+              <ControlPoint Id="LB2pVCa6yuTM1jWLkxfDPV" Bounds="417,722" Alignment="Bottom" />
+              <ControlPoint Id="U4pGG8bPsSENAHX2WignVc" Bounds="523,722" Alignment="Bottom">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="JointId" />
                 </p:TypeAnnotation>
@@ -408,7 +408,7 @@
                   <Pin Id="F38HKJyvdV2Ne3YfhIKfw1" Name="Index" Kind="InputPin" />
                 </Patch>
                 <Patch Id="PUositQr19sOA7iRfXC1qq" Name="Dispose" ManuallySortedPins="true" />
-                <Node Bounds="474,429,53,19" Id="SUPPtsGzpCfOgkA7i3YMC9">
+                <Node Bounds="296,463,53,26" Id="SUPPtsGzpCfOgkA7i3YMC9">
                   <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Joint" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Position" />
@@ -418,7 +418,7 @@
                   <Pin Id="Vrn9tc1D9gfOFvkEkHYYVY" Name="Output" Kind="OutputPin" />
                   <Pin Id="InkTdH3TCGZOPTvWPm9Mew" Name="Position" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="473,472,90,19" Id="Q3Kj0cmFxFVNnnSyKWh9W5">
+                <Node Bounds="295,506,90,26" Id="Q3Kj0cmFxFVNnnSyKWh9W5">
                   <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Joint" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ClassType" Name="Joint" />
@@ -428,7 +428,7 @@
                   <Pin Id="QI6oPngVQT0MzUETED1xSu" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="RaGTkLSLUY9P5M8t6ZwSIL" Name="Confidence Level" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="472,516,67,19" Id="DmCixJrztaROjhD2R2uorH">
+                <Node Bounds="294,550,67,26" Id="DmCixJrztaROjhD2R2uorH">
                   <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Joint" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ClassType" Name="Joint" />
@@ -438,7 +438,7 @@
                   <Pin Id="GESrMdrhX7WQataPniukjJ" Name="Output" Kind="OutputPin" />
                   <Pin Id="RA0Z9yaqpcMPscGvOkxWHp" Name="Quaternion" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="426,382,53,19" Id="OOx5E1MN4E4Nv4ARLsZFJd">
+                <Node Bounds="248,416,74,26" Id="OOx5E1MN4E4Nv4ARLsZFJd">
                   <p:NodeReference LastCategoryFullName="Devices.AzureKinect.InternalSkeleton" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetJoint" />
@@ -449,7 +449,7 @@
                   <Pin Id="CBputlrKX1ZM2aEHOnbjwA" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="ROnJE2FtZuXMCDaLQAjmpd" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="885,447,65,19" Id="JLDLBa9PwPGPy0XuZg6wA9">
+                <Node Bounds="516,499,65,19" Id="JLDLBa9PwPGPy0XuZg6wA9">
                   <p:NodeReference LastCategoryFullName="Primitive.Enum" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Ord2Enum" />
@@ -457,21 +457,21 @@
                   <Pin Id="AuuwcCmvVZ4PEWBnHhxvml" Name="Input" Kind="StateInputPin" />
                   <Pin Id="DOcbJ7e8rZxPSHWLVYgbXn" Name="Result" Kind="OutputPin" />
                 </Node>
-                <ControlPoint Id="UiUKVYbWnSPLprbv7BjO6X" Bounds="888,370" />
+                <ControlPoint Id="UiUKVYbWnSPLprbv7BjO6X" Bounds="519,422" />
               </Patch>
             </Node>
-            <ControlPoint Id="QWzadPUrSTbNHRWTkFHS25" Bounds="503,721" />
-            <ControlPoint Id="FKqVe8uQOyYQKhm98DKDJY" Bounds="637,721" />
-            <ControlPoint Id="JEAznY2cy0vOBjHFWwKJmn" Bounds="757,722" />
-            <ControlPoint Id="PvVtTuAw0zgMXKkizAQ9fh" Bounds="869,719" />
-            <Node Bounds="327,310,64,19" Id="JZp3cBKtad9Mo8zbJUOuYy">
+            <ControlPoint Id="QWzadPUrSTbNHRWTkFHS25" Bounds="325,755" />
+            <ControlPoint Id="FKqVe8uQOyYQKhm98DKDJY" Bounds="611,755" />
+            <ControlPoint Id="JEAznY2cy0vOBjHFWwKJmn" Bounds="421,755" />
+            <ControlPoint Id="PvVtTuAw0zgMXKkizAQ9fh" Bounds="526,755" />
+            <Node Bounds="149,344,64,19" Id="JZp3cBKtad9Mo8zbJUOuYy">
               <p:NodeReference LastCategoryFullName="Devices.AzureKinect.InternalSkeleton" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="JointCount" />
               </p:NodeReference>
               <Pin Id="GZ8899V2MT2LIQ0HKEpN4D" Name="Joint Count" Kind="OutputPin" />
             </Node>
-            <Node Bounds="492,263,74,26" Id="TepMuNZNUYnPJgd6pdgj9Y">
+            <Node Bounds="314,297,74,26" Id="TepMuNZNUYnPJgd6pdgj9Y">
               <p:NodeReference LastCategoryFullName="Devices.AzureKinect.InternalSkeleton" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="GetJoint" />
@@ -483,8 +483,8 @@
               <Pin Id="Tn63YWnIlDJPAx2Usxonyh" Name="Output" Kind="StateOutputPin" />
               <Pin Id="DNTVJFEQCJyLjfWlHuGooi" Name="Result" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="KkjnctVQocsOKnkUMVeUrV" Bounds="564,311" />
-            <ControlPoint Id="PZKIBAZIWOCMYM4CB9Alz7" Bounds="564,241" />
+            <ControlPoint Id="KkjnctVQocsOKnkUMVeUrV" Bounds="386,345" />
+            <ControlPoint Id="PZKIBAZIWOCMYM4CB9Alz7" Bounds="386,275" />
           </Canvas>
           <ProcessDefinition Id="B9Fl9J9m5M5PVJew99fU2Z" IsHidden="true">
             <Fragment Id="VJVjOMqFIdsQJ5n9eKHyYh" Patch="CGlWVPrCkPTLrE7jaFY0cT" Enabled="true" />
@@ -507,11 +507,11 @@
             </p:TypeAnnotation>
           </Slot>
           <Patch Id="TGwnSgGZxL6OFTVXHLKYZQ" Name="Split" ManuallySortedPins="true">
-            <Pin Id="EwmxNdQItPSQOIJOzeizYw" MergeId="570449" Name="Id" Kind="OutputPin" />
+            <Pin Id="EwmxNdQItPSQOIJOzeizYw" MergeId="570449" Name="ID" Kind="OutputPin" />
             <Pin Id="MkvvkMy0CkHMQiuHrFRYUx" Name="Joint Positions" Kind="OutputPin" />
-            <Pin Id="U8emi6Hi7wgNaIuLpaLNF5" Name="Confidence Levels" Kind="OutputPin" />
+            <Pin Id="JEvy9d8SOmOQRd0jUGGyCH" Name="Joint Orientations" Kind="OutputPin" />
             <Pin Id="UzCM3SD1XQEN4oxNmizyuB" Name="Joint Types" Kind="OutputPin" />
-            <Pin Id="JEvy9d8SOmOQRd0jUGGyCH" Name="Joint Quaternions" Kind="OutputPin" />
+            <Pin Id="U8emi6Hi7wgNaIuLpaLNF5" Name="Joint Confidence Levels" Kind="OutputPin" />
           </Patch>
           <Link Id="Jp2nSBuIdmZL8WDtqJ9Y53" Ids="UOS4ZsghyX9QX2y7GHkhnn,LV9RW69qqFrNG5enzXhr2E" IsHidden="true" />
           <Link Id="OdxPbP9aEkgNzh6R18PJS7" Ids="LV9RW69qqFrNG5enzXhr2E,Rb40iWD6hjpOiPrSEUArXe" />
@@ -603,7 +603,7 @@
     ************************ Stickman ************************
 
 -->
-      <Node Name="Stickman" Bounds="372,537" Id="TwbI3J41rlwLv1XJXHRD7v">
+      <Node Name="Stickman" Bounds="372,528" Id="TwbI3J41rlwLv1XJXHRD7v">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />
@@ -704,11 +704,11 @@
               </p:NodeReference>
               <Pin Id="OwEZdT8bYK1OGk9KjOavAj" Name="Input" Kind="StateInputPin" />
               <Pin Id="O2sSUy8MANIOrdTxOSuvet" Name="Output" Kind="OutputPin" />
-              <Pin Id="T8hENm6Np5ZLV1eT70j11O" Name="Id" Kind="OutputPin" />
+              <Pin Id="T8hENm6Np5ZLV1eT70j11O" Name="ID" Kind="OutputPin" />
               <Pin Id="TLdPB46vp0jPIwOgi22bxR" Name="Joint Positions" Kind="OutputPin" />
-              <Pin Id="EiuKCoBCnuOPP5L9pzFFe5" Name="Confidence Levels" Kind="OutputPin" />
+              <Pin Id="QnmEXL9ONR4Ppsap4yhYVw" Name="Joint Orientations" Kind="OutputPin" />
               <Pin Id="LaqXguOLzI8PBWaJYOTCBD" Name="Joint Types" Kind="OutputPin" />
-              <Pin Id="QnmEXL9ONR4Ppsap4yhYVw" Name="Joint Quaternions" Kind="OutputPin" />
+              <Pin Id="EiuKCoBCnuOPP5L9pzFFe5" Name="Joint Confidence Levels" Kind="OutputPin" />
             </Node>
             <Pad Id="NMghqg3OANdO2Ta5dUZAq7" Comment="" Bounds="413,-181,104,402" ShowValueBox="true" isIOBox="true">
               <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
@@ -922,12 +922,12 @@
           <Patch Id="FvnO6GwT1mWOeHPJ0GZwE9" Name="Create" />
           <Patch Id="OBNQUuXvgzvMxTXAeR1D1R" Name="Update" ManuallySortedPins="true">
             <Pin Id="A6zsFLnxPRmPqmfO1UvaC8" Name="Input" Kind="InputPin" Bounds="429,246" />
+            <Pin Id="GixpcUPj5nXNHSGrNO3amA" Name="Color" Kind="InputPin" Bounds="714,434" />
             <Pin Id="PVLrMkCObuHNCqzn50Yo9G" Name="Stroke Width" Kind="InputPin" Bounds="734,453" DefaultValue="0.01">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="GixpcUPj5nXNHSGrNO3amA" Name="Color" Kind="InputPin" Bounds="714,434" />
             <Pin Id="EKoQDAqkO5CMdHCctlzVbc" Name="Enabled" Kind="InputPin" Bounds="739,645" />
             <Pin Id="JC37iD2WyAsOJvzjuRpiay" Name="Output" Kind="OutputPin" Bounds="523,678" />
           </Patch>
@@ -1436,7 +1436,7 @@
     ************************ Boxman ************************
 
 -->
-      <Node Name="Boxman" Bounds="372,481" Id="R9uEE5P64aZOzWk2q68eNQ">
+      <Node Name="Boxman" Bounds="373,575" Id="R9uEE5P64aZOzWk2q68eNQ">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />
@@ -1724,11 +1724,11 @@
               </p:NodeReference>
               <Pin Id="IC1gD6LK28DLnqrb1gkIXn" Name="Input" Kind="StateInputPin" />
               <Pin Id="DTNXP2MZJfuOFnKBX5oNTH" Name="Output" Kind="StateOutputPin" />
-              <Pin Id="Mk0AGZb5JstPsPoeK685yD" Name="Id" Kind="OutputPin" />
+              <Pin Id="Mk0AGZb5JstPsPoeK685yD" Name="ID" Kind="OutputPin" />
               <Pin Id="F1P1ypfDK7kLbyclpf6PlM" Name="Joint Positions" Kind="OutputPin" />
-              <Pin Id="GdY7ZeTE5aDOg81nCDn9B9" Name="Confidence Levels" Kind="OutputPin" />
+              <Pin Id="PoFOjZV96ihOjxUrTEFP1n" Name="Joint Orientations" Kind="OutputPin" />
               <Pin Id="HABZo1CRTvdNaVdUwhKYhb" Name="Joint Types" Kind="OutputPin" />
-              <Pin Id="PoFOjZV96ihOjxUrTEFP1n" Name="Joint Quaternions" Kind="OutputPin" />
+              <Pin Id="GdY7ZeTE5aDOg81nCDn9B9" Name="Joint Confidence Levels" Kind="OutputPin" />
             </Node>
             <Node Bounds="411,840,85,19" Id="QKr1VauEKcYOWNotlAVX8B">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
