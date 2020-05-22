@@ -16,11 +16,11 @@
     <dependencies>
 		<dependency id="Microsoft.Azure.Kinect.Sensor" version="[1.4.0]" />
 		<dependency id="Microsoft.Azure.Kinect.BodyTracking" version="[1.0.1]" />
-		<dependency id="VL.Devices.AzureKinect" version="[0.1.8-alpha]" />
+		<dependency id="VL.Devices.AzureKinect" version="[0.1.11-alpha]" />
     </dependencies>
   </metadata>
   <files>
-	<file src="..\lib-native\**" target="lib-native\x64\" exclude="" />
+	<file src="..\lib-native\**" target="lib-native\" exclude="" />
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
   </files>
