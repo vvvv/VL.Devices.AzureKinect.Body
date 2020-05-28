@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="MAxdYPtimWBMv4UKoYwp5f" LanguageVersion="2020.1.0.53" Version="0.128">
-  <NugetDependency Id="GowQjEC3BnmLtfx2YShcc5" Location="VL.CoreLib" Version="2020.1.0" />
+<Document xmlns:p="property" Id="MAxdYPtimWBMv4UKoYwp5f" LanguageVersion="2020.1.2.135" Version="0.128">
+  <NugetDependency Id="GowQjEC3BnmLtfx2YShcc5" Location="VL.CoreLib" Version="2020.1.2" />
   <Patch Id="EZ4HuupTYTZLQJDZAnUbZU">
     <Canvas Id="Nj2gjmQfLhbNm404eipiCK" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -44,7 +44,7 @@
             <Pin Id="NMv8rMmlAspPeXhW2bIiXr" Name="Device" Kind="InputPin" />
             <Pin Id="SNtBqedAiC1PCk0Zr2TzmE" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="327,422,286,104" Id="OHBYYe3MHLtOBGFocSM4cm">
+          <Node Bounds="327,422,360,90" Id="OHBYYe3MHLtOBGFocSM4cm">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -52,12 +52,12 @@
             </p:NodeReference>
             <Pin Id="Jno2Zw0UYhOO2eVC6p4lJt" Name="Break" Kind="OutputPin" />
             <ControlPoint Id="KFIS6zUBNDHPtbciYnfk7f" Bounds="341,428" Alignment="Top" />
-            <ControlPoint Id="UEuj574EsP2L24hFtopFo9" Bounds="341,520" Alignment="Bottom" />
+            <ControlPoint Id="UEuj574EsP2L24hFtopFo9" Bounds="341,506" Alignment="Bottom" />
             <Patch Id="UuEvB6KsgIQQASsrozRuPd" ManuallySortedPins="true">
               <Patch Id="CMRgbFhCgsHNpYwzrrTL3R" Name="Create" ManuallySortedPins="true" />
               <Patch Id="J0QfqDOO0iwLC8imycnkhl" Name="Update" ManuallySortedPins="true" />
               <Patch Id="Kcx7sRqwCDBLoeYumxWpXH" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="496,456,105,26" Id="AFey1j43PJ2Mi9p7HoKNyp">
+              <Node Bounds="570,457,105,26" Id="AFey1j43PJ2Mi9p7HoKNyp">
                 <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Skeleton" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Skeleton" />
@@ -66,11 +66,11 @@
                 <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                 <Pin Id="HJcOUzsRf1ZPkhdhz4CXdH" Name="Input" Kind="StateInputPin" />
                 <Pin Id="UXKbQNUGRVAPzl9W8RM69A" Name="Output" Kind="OutputPin" />
-                <Pin Id="RRS23YzP75YLLOVGhN8Pdv" Name="Id" Kind="OutputPin" />
+                <Pin Id="Ucd1T5QDCyhMrrvtV5Sedo" Name="ID" Kind="OutputPin" />
                 <Pin Id="K2nWDLx4uDpMimotSWqdVj" Name="Joint Positions" Kind="OutputPin" />
-                <Pin Id="EpfYbKbKqLcNQ4KO1MujNB" Name="Confidence Levels" Kind="OutputPin" />
+                <Pin Id="S5pFW8dWx1PNlOYjAsCew0" Name="Joint Orientations" Kind="OutputPin" />
                 <Pin Id="G6CdgGfEDTQLveTr4n1GTa" Name="Joint Types" Kind="OutputPin" />
-                <Pin Id="TtvKtNgoTjlMzPlSylIUoI" Name="Joint Quaternions" Kind="OutputPin" />
+                <Pin Id="JSBrQlB1MssN4g1QbHPZwP" Name="Joint Confidence Levels" Kind="OutputPin" />
               </Node>
               <Node Bounds="339,457,125,19" Id="KoLHlNYhPnCLQdcsJ5mrjb">
                 <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
@@ -98,6 +98,17 @@
                 </Pin>
                 <Pin Id="Eir63JlilsxL9KSmAG1yCx" Name="Enabled" Kind="InputPin" />
                 <Pin Id="SFzczeaARiqNySDTGTYc4m" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="486,457,65,19" Id="L6uUSYxMVLXNbqouwJmHRV">
+                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Stickman" />
+                </p:NodeReference>
+                <Pin Id="OXDEJdUa3N9PiaeKbyTZfz" Name="Input" Kind="InputPin" />
+                <Pin Id="LiYNaJj1TbDMhho9qL9OQC" Name="Color" Kind="InputPin" />
+                <Pin Id="L6SGA0VbyGYOnO7RvUTGV6" Name="Stroke Width" Kind="InputPin" />
+                <Pin Id="MqzucipSy4sMzUxen4OGWf" Name="Enabled" Kind="InputPin" />
+                <Pin Id="JKeSr9q7ngHNUdo3NWipCO" Name="Output" Kind="OutputPin" />
               </Node>
             </Patch>
           </Node>
@@ -216,12 +227,12 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="LeiJ5NBqxTFPjJC7ezH2lD" Comment="Sensor Orientation" Bounds="408,267,122,15" ShowValueBox="true" isIOBox="true" Value="Default">
+          <Pad Id="LeiJ5NBqxTFPjJC7ezH2lD" Comment="Sensor Orientation" Bounds="408,267,75,-4" ShowValueBox="true" isIOBox="true" Value="Default">
             <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastSymbolSource="Microsoft.Azure.Kinect.BodyTracking.dll">
               <Choice Kind="TypeFlag" Name="SensorOrientation" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="S9ODkC1w3q3QHFmhsaQceH" Bounds="667,492,210,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/en-us/azure/kinect-dk/body-joints">
+          <Pad Id="S9ODkC1w3q3QHFmhsaQceH" Bounds="703,476,210,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/en-us/azure/kinect-dk/body-joints">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -230,7 +241,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DBrRUTvpJuwMo4YylKzWl8" Bounds="667,473,207,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking joints">
+          <Pad Id="DBrRUTvpJuwMo4YylKzWl8" Bounds="703,457,207,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking joints">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -255,17 +266,18 @@
         <Link Id="LNx95Wxhd5FOBYWK7vfGFe" Ids="KhyeTESZYutPRFXFriGkAE,DP3E8SVBDd1OJd3Mjf2tPl" />
         <Link Id="AvD94X9paHDMQEtEUcvyGB" Ids="PzqwhIJRAUpLuaIHWy6WDT,NMv8rMmlAspPeXhW2bIiXr" />
         <Link Id="TqHT9GmIqCFO3eYBQHbjKz" Ids="KFIS6zUBNDHPtbciYnfk7f,ECqJ9nC2RHDPO9xBG0w7jC" />
-        <Link Id="OrgKcjimplYQSb1intUhKW" Ids="SFzczeaARiqNySDTGTYc4m,UEuj574EsP2L24hFtopFo9" />
         <Link Id="Dsltd3OJJ0YOgNLAXzh093" Ids="UEuj574EsP2L24hFtopFo9,TJkcMjbUu9TNSL78B40ayJ" />
         <Link Id="O6mO6pR3RV3MjAhGl1bXVY" Ids="To7rhiB9CXDLhbTkO5YRKs,MjYOe9oBeKRP9rgknE4obC" />
         <Link Id="FqGIsyJtYMQPeeCdN8IaaU" Ids="BVzPrFB6ahJNeeepZVjCFH,CkU2pUDvvpmNPyOLkbYDJr" />
         <Link Id="DeSdxpta2gRMAZDYkyI6L1" Ids="JpHNYKuhDEuOgO90W92nSd,BarO8Nn0PQBMlC9kN32e0g" />
         <Link Id="DDjN7Y8Vc3zL1RxvFsewiC" Ids="LVlqrwaSichNV0gu0jj4LN,L5mPzyMjTeLNnFZPnDBeeH" />
         <Link Id="UyoSlwGxf8qMbwO1d9OoOs" Ids="LeiJ5NBqxTFPjJC7ezH2lD,KeJFipQZJEXOL0u29a7lRD" />
+        <Link Id="S8Jlrq8SBAPPGhAtDPQoho" Ids="KFIS6zUBNDHPtbciYnfk7f,OXDEJdUa3N9PiaeKbyTZfz" />
+        <Link Id="LGOpBF0KiC0OrupsmpwE6g" Ids="SFzczeaARiqNySDTGTYc4m,UEuj574EsP2L24hFtopFo9" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="BRJnnZdh5eyMS3vQIp8RQ2" Location="VL.Skia" Version="2020.1.0" />
+  <NugetDependency Id="BRJnnZdh5eyMS3vQIp8RQ2" Location="VL.Skia" Version="2020.1.2" />
   <NugetDependency Id="PlhzwyrzqZ1LbLQQqfXZSM" Location="VL.Devices.AzureKinect" Version="0.0.0.0" />
   <NugetDependency Id="PzpGo5rWv4jQSJ9eRUYFcn" Location="VL.Skia3d" Version="0.0.0.0" />
   <NugetDependency Id="PDPYgaU0Ya6OHxjQFfZWs1" Location="VL.Devices.AzureKinect.Body" Version="0.0.0.0" />

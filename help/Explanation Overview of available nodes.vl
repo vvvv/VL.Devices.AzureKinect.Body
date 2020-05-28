@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Nh38Z7rdJauN4uoSAqadQp" LanguageVersion="2020.1.0.53" Version="0.128">
-  <NugetDependency Id="NkxBtTr8hOoNigSpbcTFdR" Location="VL.CoreLib" Version="2020.1.0" />
+<Document xmlns:p="property" Id="Nh38Z7rdJauN4uoSAqadQp" LanguageVersion="2020.1.2.125" Version="0.128">
+  <NugetDependency Id="NkxBtTr8hOoNigSpbcTFdR" Location="VL.CoreLib" Version="2020.1.2-0122-ga74ffb9640" />
   <Patch Id="APFBYc3ryadNMXCUycaQDK">
     <Canvas Id="VZxxHWhqYjuLlXlvDdCXIG" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -45,6 +45,7 @@
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="B7p1GQqRDlpNW3sVW7xvd4" Name="Device" Kind="InputPin" />
+            <Pin Id="DEgDYHXR2H4NoAnZPFWhMy" Name="Transformation" Kind="InputPin" />
             <Pin Id="KZVJRsmer5dM25mToTjXp5" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="GlM5yqOoRsCOk3jO9uuELs" Bounds="756,577,239,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-index-map">
@@ -139,9 +140,9 @@
                 </p:NodeReference>
                 <Pin Id="C5DwC4MSDKnNf7M90cF1TP" Name="Input" Kind="StateInputPin" />
                 <Pin Id="LJkfqZ1WVeuPVv0hszqEcw" Name="Output" Kind="StateOutputPin" />
-                <Pin Id="As46euo6p2iO6PCcTnGZt1" Name="Id" Kind="OutputPin" />
+                <Pin Id="BMOxjK0FLpSPWI712Aoi5C" Name="ID" Kind="OutputPin" />
                 <Pin Id="NgMSuzoT3eeMrrLdLLQLzA" Name="Joint Positions" Kind="OutputPin" />
-                <Pin Id="JPjqlOZBhoINTi6zYdx4Wb" Name="Joint Quaternions" Kind="OutputPin" />
+                <Pin Id="TupwZLuxPkaOzY8UM90qUp" Name="Joint Orientations" Kind="OutputPin" />
                 <Pin Id="CZCcyoWtAT1Nng3SSyGZRR" Name="Joint Types" Kind="OutputPin" />
                 <Pin Id="G33gfAztzk8QEJhZrmxFwj" Name="Joint Confidence Levels" Kind="OutputPin" />
               </Node>
@@ -181,7 +182,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EJQFUBr0tEoMzWByOBHtcT" Bounds="386,768,246,153" ShowValueBox="true" isIOBox="true" Value="Both Skeletons and BodyImage are also available as &quot;Reactive&quot; versions in the nodebrowser if you enable &quot;Advanced&quot; nodes. &#xD;&#xA;&#xD;&#xA;The reactive versions allow you to apply computations to the images in a background thread.">
+          <Pad Id="EJQFUBr0tEoMzWByOBHtcT" Bounds="334,765,246,153" ShowValueBox="true" isIOBox="true" Value="Both Skeletons and BodyImage are also available as &quot;Reactive&quot; versions in the nodebrowser if you enable &quot;Advanced&quot; nodes. &#xD;&#xA;&#xD;&#xA;The reactive versions allow you to apply computations to the images in a background thread.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -219,7 +220,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LqN860VbNwDMgtD9a8XgD9" Location="VL.Skia" Version="2020.1.0" />
+  <NugetDependency Id="LqN860VbNwDMgtD9a8XgD9" Location="VL.Skia" Version="2020.1.2-0122-ga74ffb9640" />
   <NugetDependency Id="RZzgwQ5hDLQQVOrRCGYkHo" Location="VL.Devices.AzureKinect" Version="0.0.0.0" />
   <NugetDependency Id="OGsewH10MyqNIwMhEJjDiF" Location="VL.Devices.AzureKinect.Body" Version="0.0.0.0" />
 </Document>
