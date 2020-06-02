@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="S3BYXYbBcOQLrAesdzH6KE" LanguageVersion="2020.1.2.135" Version="0.128">
-  <NugetDependency Id="BfQ9BqV8poEPnZWKYQROv0" Location="VL.CoreLib" Version="2020.1.2" />
+<Document xmlns:p="property" Id="S3BYXYbBcOQLrAesdzH6KE" LanguageVersion="2020.1.3.147" Version="0.128">
+  <NugetDependency Id="BfQ9BqV8poEPnZWKYQROv0" Location="VL.CoreLib" Version="2020.1.3" />
   <Patch Id="DYRuwp4ufPyNyKtULooXvw">
     <Canvas Id="QYFOXjrMgATQTcpBMDj2hQ" DefaultCategory="Devices.AzureKinect.Body.HDE" CanvasType="FullCategory">
       <!--
@@ -418,7 +418,7 @@
               <Pin Id="KRQCu5xrszhLtlGQB9eQSe" Name="Input 2" Kind="InputPin" />
               <Pin Id="Se9WTjIGPJ1L9Vgg6x6oTB" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="612,555,51,19" Id="BVM5qQ4GS4cOMWRcc9AK6S">
+            <Node Bounds="612,575,51,19" Id="BVM5qQ4GS4cOMWRcc9AK6S">
               <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="RecordType" Name="Rectangle" />
@@ -466,26 +466,28 @@
               <Pin Id="DlhjO1Q6WFlLo98EqxZkB0" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="462,780,85,19" Id="FlFxOQezDUfPL22nHkkjTu">
-              <p:NodeReference LastCategoryFullName="Graphics.Skia.Transform" LastSymbolSource="VL.Skia.vl">
+              <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="WithinSpace" />
+                <Choice Kind="ProcessAppFlag" Name="Panel" />
               </p:NodeReference>
-              <Pin Id="NgXNbgnbr4xOyGwvkUieiN" Name="Input" Kind="InputPin" />
-              <Pin Id="CLvxBmN39dxN0gUqU0oNzj" Name="Sizing" Kind="InputPin" />
-              <Pin Id="Bi10WZRwZ1WMHbN8JQ0R6i" Name="Width" Kind="InputPin" />
-              <Pin Id="OI8PNzv8slsMD8frjfc5Xw" Name="Height" Kind="InputPin">
+              <Pin Id="AY1f3PFYdUOM9hknUgHI3b" Name="Bounds" Kind="InputPin" />
+              <Pin Id="EgXzEziy2TsMgoZfTZV7ku" Name="Layer Inside" Kind="InputPin" />
+              <Pin Id="OyLqrIT3QYAPHyJq5o05HI" Name="New Space" Kind="InputPin" DefaultValue="True">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Float32" />
+                  <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="IN9eSTmVepFLfQa6IJSS5z" Name="Origin" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="RectangleAnchor" />
+              <Pin Id="NF3VY2AnRCGO7kTs93whJo" Name="Space" Kind="InputPin" />
+              <Pin Id="I6uijMwX6kgQUQgDrx7WZ4" Name="Draw Background" Kind="InputPin" DefaultValue="False">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
               </Pin>
+              <Pin Id="IE2OVQk3nYYLnTnkSX5Ypj" Name="Background Color" Kind="InputPin" />
+              <Pin Id="Tyoar9TKNZBLBtK6zK4Ept" Name="Backdrop Layer" Kind="InputPin" />
               <Pin Id="FZYkzdYpzlpMepnKEmKQfI" Name="Output" Kind="OutputPin" />
             </Node>
-            <Pad Id="PuXvDi6ZkDfQW9NVWcuNnz" Bounds="641,673" />
+            <Pad Id="PuXvDi6ZkDfQW9NVWcuNnz" Bounds="614,554" />
             <Pad Id="FnFzwzi4mVdLFrzyYB5pLK" Comment="Input" Bounds="852,532,35,15" ShowValueBox="true" isIOBox="true" Value="0">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Integer32" />
@@ -560,21 +562,22 @@
           <Link Id="FTCpJ2vYPozQANa4oCyTxF" Ids="Se9WTjIGPJ1L9Vgg6x6oTB,VBuM8qPKWz0MGEoyagoqNn" />
           <Link Id="EjA5N34B65yMKG0mgBQvYV" Ids="SGuT8ipBQA6LjrlYQj7CmV,KRQCu5xrszhLtlGQB9eQSe" />
           <Link Id="AW7yVN6nxnCMO6zdGJkGL9" Ids="H6wKBvGXWxNPiI9McX4AS2,POmoyoHBj5HMdQxHjvvwvr" />
-          <Link Id="P1QSv9RET5YMdqcUkCx78l" Ids="FoC9cpCsGMvOSOQjp5XCfs,G9mQVwFRFZcMVW3Xp2cuAR" />
           <Link Id="GNpwnz9z5LmPWhTT0mXbVG" Ids="IK7KX71dahSOXmJziEYOfV,UJOy7Zj5ERYQDsH27It6Dx" />
-          <Link Id="RrMNTVDXH6MOGXIAIzR9Dy" Ids="CeM96nfumdLOAwxvp0sRcB,PuXvDi6ZkDfQW9NVWcuNnz" />
           <Link Id="SBhwwJ86OJWQQhDZkV3q27" Ids="EOSBnaGurG2LRddad7Seja,GI4r4CqXChYNjwVmq5kK8n" />
           <Link Id="EBNiiRvwOh9PYsKSxyMcLu" Ids="QcbiqYyABK6PS3W0L3m5TF,F7D8xcnr18ZNtUmSoHEcN0" />
-          <Link Id="INeY8OXF6DjMAZNA6n9eTV" Ids="DlhjO1Q6WFlLo98EqxZkB0,NgXNbgnbr4xOyGwvkUieiN" />
           <Link Id="EAI1DScCmUiOXeONqJoQwr" Ids="DKxeGMq6PqUOhMta5oHsWd,VV31ku3PDWqOHZLThVdXIo" />
           <Link Id="T1Ceez0JAExMQZWlvsxYj4" Ids="FZYkzdYpzlpMepnKEmKQfI,GsazFF9ljMHOqJWZwjklag" />
           <Link Id="PcQiqIe8d7IMKQfj3l9e8j" Ids="UlLe4UG8m0TN3JxANsjzSL,ApTyokL6gq0O3zLmrhauR9" />
           <Patch Id="DkuJr4B2HXBLqhHwEXlDhM" Name="Update">
             <Pin Id="EBV268xlx0FPsJHiT7ZXsP" Name="Layer" Kind="OutputPin" />
           </Patch>
-          <Link Id="RaYco7oTIjiLlMs0CTLSFN" Ids="PuXvDi6ZkDfQW9NVWcuNnz,IBag13ikkNvOPgBPcEpQdI" />
           <Link Id="RR455RpzGbSLeVBcVoHaCZ" Ids="FnFzwzi4mVdLFrzyYB5pLK,GxCGNvZO7P9PMjCugq964h" />
           <Link Id="CkkE90x7TAIONHdOIX7O53" Ids="IpOQQQf9K2HPAEB3TSD1wv,OAqjRkaFIBwMv0GV6APoUR" />
+          <Link Id="LX00b1hLQdxO37lNMraThc" Ids="DlhjO1Q6WFlLo98EqxZkB0,EgXzEziy2TsMgoZfTZV7ku" />
+          <Link Id="KUJ6jQpZEoFOzmSPzWZajr" Ids="FoC9cpCsGMvOSOQjp5XCfs,PuXvDi6ZkDfQW9NVWcuNnz" />
+          <Link Id="FEjZUfdygxEOsXPuZEn8FL" Ids="PuXvDi6ZkDfQW9NVWcuNnz,G9mQVwFRFZcMVW3Xp2cuAR" />
+          <Link Id="BwQrOG6GUJZNz2xefFGoYm" Ids="CeM96nfumdLOAwxvp0sRcB,IBag13ikkNvOPgBPcEpQdI" />
+          <Link Id="DFO3hLbReBOQNBpFo3OKdx" Ids="PuXvDi6ZkDfQW9NVWcuNnz,AY1f3PFYdUOM9hknUgHI3b" />
         </Patch>
       </Node>
     </Canvas>
@@ -599,8 +602,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PplJ8M06DDYNWsWk2Slfxl" Location="VL.Skia" Version="2020.1.2" />
-  <NugetDependency Id="Vx0IDKk0ZwjLq5dkCVhG5Z" Location="VL.HDE" Version="2020.1.2" />
+  <NugetDependency Id="PplJ8M06DDYNWsWk2Slfxl" Location="VL.Skia" Version="2020.1.3" />
+  <NugetDependency Id="Vx0IDKk0ZwjLq5dkCVhG5Z" Location="VL.HDE" Version="2020.1.3" />
   <NugetDependency Id="SENEgtiPifvO2cyj0n9cBa" Location="VL.Devices.AzureKinect" Version="0.0.0.0" />
   <NugetDependency Id="Pztoe82H5JNNgeZV0CCeiV" Location="VL.Skia3d" Version="0.0.0.0" />
   <NugetDependency Id="JiduWb0eZzfOlKu8jW9OYi" Location="VL.Devices.AzureKinect.Body" Version="0.0.0.0" />
