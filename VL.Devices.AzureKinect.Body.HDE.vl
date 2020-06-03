@@ -337,7 +337,7 @@
               </Pin>
               <Pin Id="H6wKBvGXWxNPiI9McX4AS2" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="744,476,34,19" Id="AUROCUtNMLMOxzo0mexJGs">
+            <Node Bounds="719,502,105,26" Id="AUROCUtNMLMOxzo0mexJGs">
               <p:NodeReference LastCategoryFullName="Devices.Kinect2.Skeleton" LastSymbolSource="VL.Devices.Kinect2.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Skeleton" />
@@ -369,7 +369,7 @@
               <Pin Id="QcbiqYyABK6PS3W0L3m5TF" Name="Output" Kind="OutputPin" />
               <Pin Id="Sm7DjswFbytOn0xVhm1V5A" Name="Baseline Position" Kind="OutputPin" />
             </Node>
-            <Node Bounds="811,560,55,19" Id="PogHKEFlP7dLEGjshi4xBV">
+            <Node Bounds="738,587,55,19" Id="PogHKEFlP7dLEGjshi4xBV">
               <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -488,12 +488,6 @@
               <Pin Id="FZYkzdYpzlpMepnKEmKQfI" Name="Output" Kind="OutputPin" />
             </Node>
             <Pad Id="PuXvDi6ZkDfQW9NVWcuNnz" Bounds="614,554" />
-            <Pad Id="FnFzwzi4mVdLFrzyYB5pLK" Comment="Input" Bounds="852,532,35,15" ShowValueBox="true" isIOBox="true" Value="0">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Integer32" />
-                <FullNameCategoryReference ID="Primitive" />
-              </p:TypeAnnotation>
-            </Pad>
             <Node Bounds="537,697" Id="JCkk9wkdkhkP0Quiqs5D9l">
               <p:NodeReference LastCategoryFullName="3D.Transform" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -571,13 +565,13 @@
           <Patch Id="DkuJr4B2HXBLqhHwEXlDhM" Name="Update">
             <Pin Id="EBV268xlx0FPsJHiT7ZXsP" Name="Layer" Kind="OutputPin" />
           </Patch>
-          <Link Id="RR455RpzGbSLeVBcVoHaCZ" Ids="FnFzwzi4mVdLFrzyYB5pLK,GxCGNvZO7P9PMjCugq964h" />
           <Link Id="CkkE90x7TAIONHdOIX7O53" Ids="IpOQQQf9K2HPAEB3TSD1wv,OAqjRkaFIBwMv0GV6APoUR" />
           <Link Id="LX00b1hLQdxO37lNMraThc" Ids="DlhjO1Q6WFlLo98EqxZkB0,EgXzEziy2TsMgoZfTZV7ku" />
           <Link Id="KUJ6jQpZEoFOzmSPzWZajr" Ids="FoC9cpCsGMvOSOQjp5XCfs,PuXvDi6ZkDfQW9NVWcuNnz" />
           <Link Id="FEjZUfdygxEOsXPuZEn8FL" Ids="PuXvDi6ZkDfQW9NVWcuNnz,G9mQVwFRFZcMVW3Xp2cuAR" />
           <Link Id="BwQrOG6GUJZNz2xefFGoYm" Ids="CeM96nfumdLOAwxvp0sRcB,IBag13ikkNvOPgBPcEpQdI" />
           <Link Id="DFO3hLbReBOQNBpFo3OKdx" Ids="PuXvDi6ZkDfQW9NVWcuNnz,AY1f3PFYdUOM9hknUgHI3b" />
+          <Link Id="OUfqa77NSS7MDtIF43kZAe" Ids="Md92Ki7zyhqQBXOp8FVKJt,GxCGNvZO7P9PMjCugq964h" />
         </Patch>
       </Node>
     </Canvas>
