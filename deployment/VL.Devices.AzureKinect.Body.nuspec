@@ -2,22 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.AzureKinect.Body</id>
-    <version>0.0.0</version>
+    <version>1.0.0</version>
     <title>VL.Devices.AzureKinect.Body</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
     <projectUrl>https://github.com/vvvv/VL.Devices.AzureKinect.Body</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Set of nodes to use Azure Kinect BodyTracking in VL</summary>
-    <description>Azure Kinect BodyTracking for VL</description>
-    <copyright>Copyright © 2019 by vvvv group. All rights reserved.</copyright>
+    <summary>Azure Kinect BodyTracking for vvvv</summary>
+    <description>Azure Kinect BodyTracking for vvvv</description>
     <tags>VL, tracking, body, skeleton</tags>
 	<license type="expression">LGPL-3.0-only</license>
     <dependencies>
 		<dependency id="Microsoft.Azure.Kinect.Sensor" version="[1.4.0]" />
 		<dependency id="Microsoft.Azure.Kinect.BodyTracking.Dependencies" version="[0.9.1]" />
 		<dependency id="Microsoft.Azure.Kinect.BodyTracking.Dependencies.cuDNN" version="[0.9.1]" />
-		<dependency id="VL.Devices.AzureKinect" version="0.2.3-alpha" />
+		<dependency id="VL.Devices.AzureKinect" version="1.0.0" />
     </dependencies>
   </metadata>
   <files>
