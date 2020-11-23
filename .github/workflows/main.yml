@@ -18,13 +18,13 @@ jobs:
         lfs: 'true'
     
     - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v1.0.0
+      uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Setup Nuget.exe
       uses: nuget/setup-nuget@v1
       
     - name: Publish VL Nuget
-      uses: vvvv/PublishVLNuget@1.0.27-alpha
+      uses: vvvv/PublishVLNuget@1.0.29
       with:
         nuspec: deployment\VL.Devices.AzureKinect.Body.nuspec
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png

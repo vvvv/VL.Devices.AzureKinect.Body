@@ -16,7 +16,7 @@
 		<dependency id="Microsoft.Azure.Kinect.Sensor" version="[1.4.0]" />
 		<dependency id="Microsoft.Azure.Kinect.BodyTracking.Dependencies" version="[0.9.1]" />
 		<dependency id="Microsoft.Azure.Kinect.BodyTracking.Dependencies.cuDNN" version="[0.9.1]" />
-		<dependency id="VL.Devices.AzureKinect" version="1.2.0" />
+		<dependency id="VL.Devices.AzureKinect" version="1.2.1" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
