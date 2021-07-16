@@ -695,6 +695,14 @@
             The setting is only effective if the <see cref="F:Microsoft.Azure.Kinect.BodyTracking.TrackerConfiguration.ProcessingMode"/> setting is set to <see cref="F:Microsoft.Azure.Kinect.BodyTracking.TrackerProcessingMode.Gpu"/>.
             </remarks>
         </member>
+        <member name="F:Microsoft.Azure.Kinect.BodyTracking.TrackerConfiguration.ModelPath">
+            <summary>
+            Specify the model file name and location used by the tracker. 
+            </summary>
+            <remarks>
+            If specified, the tracker will use this model instead of the default one.
+            </remarks>
+        </member>
         <member name="F:Microsoft.Azure.Kinect.BodyTracking.TrackerConfiguration.Default">
             <summary>
             Default configuration setting for Azure Kinect body tracking component.
@@ -717,6 +725,21 @@
         <member name="F:Microsoft.Azure.Kinect.BodyTracking.TrackerProcessingMode.Cpu">
             <summary>
             SDK will use CPU only mode to run the tracker.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Azure.Kinect.BodyTracking.TrackerProcessingMode.Cuda">
+            <summary>
+            SDK will use ONNX Cuda EP to run the tracker.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Azure.Kinect.BodyTracking.TrackerProcessingMode.TensorRT">
+            <summary>
+            SDK will use ONNX TensorRT EP to run the tracker.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Azure.Kinect.BodyTracking.TrackerProcessingMode.DirectML">
+            <summary>
+            SDK will use ONNX DirectML EP to run the tracker.
             </summary>
         </member>
     </members>
