@@ -1509,13 +1509,7 @@
             <ControlPoint Id="E030Dn3kHYwNa0VmGPcKNl" Bounds="714,367" />
             <ControlPoint Id="E6Nchi2C3ZTNeOR5gc53DL" Bounds="637,328" />
             <ControlPoint Id="NLgiwYD7lBZNCKwxCrAHud" Bounds="488,372" />
-            <Node Bounds="502,204,16,19" Id="RjljnrXMatJP1GWrM9dcT6">
-              <p:NodeReference LastCategoryFullName="VL.Devices.AzureKinect.Body.PathHelper" LastSymbolSource="VL.Devices.AzureKinect.Body.dll">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="SetRequiredDLLPaths" />
-              </p:NodeReference>
-            </Node>
-            <Pad Id="BjpifIMgOjONbwm120ud6n" Bounds="616,212,132,19" ShowValueBox="true" isIOBox="true" Value="&lt; assigned to create">
+            <Pad Id="BjpifIMgOjONbwm120ud6n" Bounds="483,200,132,19" ShowValueBox="true" isIOBox="true" Value="&lt; assigned to create">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -1524,8 +1518,14 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
+            <Node Bounds="376,194,112,19" Id="JpPBM7O37U1QdomfEy756u">
+              <p:NodeReference LastCategoryFullName="VL.Devices.AzureKinect.Body.PathHelper" LastSymbolSource="VL.Devices.AzureKinect.Body.dll">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="SetRequiredDLLPaths" />
+              </p:NodeReference>
+            </Node>
           </Canvas>
-          <Patch Id="MuF99sGAVzAP1CYcbGg9ig" Name="Create" ParticipatingElements="RjljnrXMatJP1GWrM9dcT6" />
+          <Patch Id="MuF99sGAVzAP1CYcbGg9ig" Name="Create" ParticipatingElements="JpPBM7O37U1QdomfEy756u" />
           <Patch Id="HiIKrAXPQJnNcI9SJkqSus" Name="Update" ManuallySortedPins="true">
             <Pin Id="PNNd1O0LINUQPOK4ivMbrU" Name="Device" Kind="InputPin" />
             <Pin Id="FuVu5qMAlDzMfRYKAO11Vq" Name="Model Path" Kind="InputPin" Bounds="637,328" />

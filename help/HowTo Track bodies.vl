@@ -194,7 +194,7 @@
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JpHNYKuhDEuOgO90W92nSd" Comment="Processing Mode" Bounds="325,236,72,15" ShowValueBox="true" isIOBox="true" Value="Gpu">
+          <Pad Id="JpHNYKuhDEuOgO90W92nSd" Comment="Processing Mode" Bounds="325,236,72,15" ShowValueBox="true" isIOBox="true" Value="DirectML">
             <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastSymbolSource="Microsoft.Azure.Kinect.BodyTracking.dll">
               <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
             </p:TypeAnnotation>

@@ -16,12 +16,16 @@ namespace VL.Devices.AzureKinect.Body
             var directMLPath = Path.Combine(dllPath, @"..\..\runtimes\win-x64\native");
             SetDllDirectory(directMLPath);
 
-            //var cudaPath = Environment.GetEnvironmentVariable("CUDA_PATH");
-            //cudaPath = Path.Combine(cudaPath, "bin");
-            //SetDllDirectory(cudaPath);
+            var cudaPath = Environment.GetEnvironmentVariable("CUDA_PATH");
+            if (!string.IsNullOrEmpty(cudaPath))
+            {
+                cudaPath = Path.Combine(cudaPath, "bin");
+                SetDllDirectory(cudaPath);
+            }
 
             var cudnnPath = @"C:\Program Files\Azure Kinect Body Tracking SDK\tools";
-            SetDllDirectory(cudnnPath);
+            if (Directory.Exists(cudnnPath))
+                SetDllDirectory(cudnnPath);
         }
     }
 }
