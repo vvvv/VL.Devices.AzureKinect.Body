@@ -12,3 +12,10 @@ In order to use this library with VL you have to install the nuget that is avail
 Once the VL.Devices.AzureKinect.Body nuget is installed and referenced in your VL document you'll see the category "AzureKinect" under "Devices" in the nodebrowser. 
 
 Demos are available via the Help Browser!
+
+## Bodytracking
+
+For better GPU based body tracking, use the latest preview of the nuget, instead of latest stable!
+And make sure to install:
+- Cuda 11.4
+- BodyTracking SDK 1.1.0 (in the default install path)
