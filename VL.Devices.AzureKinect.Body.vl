@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="FT1Mvb0fFfNNdRPXq7G6a1" LanguageVersion="2021.4.11.1227" Version="0.128">
-  <NugetDependency Id="CGRGdPSjELiM8Zwqwutmpa" Location="VL.CoreLib" Version="2021.4.11-1215-ga840232e2e" />
+<Document xmlns:p="property" Id="FT1Mvb0fFfNNdRPXq7G6a1" LanguageVersion="2021.4.11.1341" Version="0.128">
+  <NugetDependency Id="CGRGdPSjELiM8Zwqwutmpa" Location="VL.CoreLib" Version="2021.4.11" />
   <Patch Id="QLqDcTOr1wsMLsuNhMjakn">
     <Canvas Id="OnK2FssQOETNWfnJIrAYkA" DefaultCategory="Devices.AzureKinect" CanvasType="FullCategory">
       <Canvas Id="EceBQLK7pkJPsPUtl0HuKu" Name="Internal" Position="120,179">
@@ -1524,6 +1524,15 @@
                 <Choice Kind="OperationCallFlag" Name="SetRequiredDLLPaths" />
               </p:NodeReference>
             </Node>
+            <Pad Id="LTl0yyASn94NW6r0YJjESZ" Bounds="-26,363,218,61" ShowValueBox="true" isIOBox="true" Value="To force a refresh when an upstream connected AzureKinectPlayer changes its file &gt;">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
+                <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+              </p:ValueBoxSettings>
+            </Pad>
           </Canvas>
           <Patch Id="MuF99sGAVzAP1CYcbGg9ig" Name="Create" ParticipatingElements="JpPBM7O37U1QdomfEy756u" />
           <Patch Id="HiIKrAXPQJnNcI9SJkqSus" Name="Update" ManuallySortedPins="true">
@@ -1603,6 +1612,7 @@
           <Link Id="Hs7PTxmlwyQOYTcQgerivM" Ids="GyyWfOcsTjjQNYDzHogAWt,SPp8U30zGJ4PopNKdoB6J3" />
           <Link Id="CgN43WaeVZ9PoDKKYn3Kr6" Ids="NLgiwYD7lBZNCKwxCrAHud,GyyWfOcsTjjQNYDzHogAWt" />
           <Link Id="ECtSo8S1fcQMyxZ7tSCXfs" Ids="BQ3jhK6cIH4PWkjG26i2KQ,NLgiwYD7lBZNCKwxCrAHud" IsHidden="true" />
+          <Link Id="VVEpDpceDaHQDt7GtqeJ7L" Ids="IKHQW94Eg79O0CeGUEVehM,Em0JDTlqPdkP2KrR90chWe" />
         </Patch>
       </Node>
       <!--
@@ -2609,11 +2619,11 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MsqCX6Ttc4CLXiQVDI6QhQ" Location="VL.Skia" Version="2021.4.11-1215-ga840232e2e" />
+  <NugetDependency Id="MsqCX6Ttc4CLXiQVDI6QhQ" Location="VL.Skia" Version="2021.4.11" />
   <NugetDependency Id="KZAfO3faLstMCFyjB36g9Y" Location="System.Numerics.Vectors" Version="4.5.0" />
   <NugetDependency Id="NSs7oMJT8N3MUjPdxlXgSg" Location="Microsoft.Azure.Kinect.Sensor" Version="1.4.1" />
   <NugetDependency Id="BjHHosGh8QaNOegumIQQIC" Location="VL.Skia3d" Version="1.1.2" />
-  <NugetDependency Id="TJ6B0CjUIR6P4IssWDTWRU" Location="VL.Devices.AzureKinect" IsFriend="true" Version="0.0.0.0" />
+  <NugetDependency Id="TJ6B0CjUIR6P4IssWDTWRU" Location="VL.Devices.AzureKinect" IsFriend="true" Version="1.4.1" />
   <PlatformDependency Id="TdTBx67ga8qQFWzeljSZMT" Location="mscorlib" />
   <PlatformDependency Id="I4u0RRoh7oZMTpdxf5vBnW" Location="./lib/netstandard2.0/Microsoft.Azure.Kinect.BodyTracking.dll" />
   <PlatformDependency Id="BQ5cmE5XPZqPTCniZCBNT0" Location="./lib/netstandard2.0/VL.Devices.AzureKinect.Body.dll" />
