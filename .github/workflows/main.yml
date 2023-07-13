@@ -30,4 +30,4 @@ jobs:
         nuspec: deployment\VL.Devices.AzureKinect.Body.nuspec
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
-        nuget-key: ${{ secrets.NUGET_KEY }}
+        nuget-key: ${{ secrets.VVVV_ORG_NUGET_KEY }}
