@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Nh38Z7rdJauN4uoSAqadQp" LanguageVersion="2020.1.2.125" Version="0.128">
-  <NugetDependency Id="NkxBtTr8hOoNigSpbcTFdR" Location="VL.CoreLib" Version="2020.1.2-0122-ga74ffb9640" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Nh38Z7rdJauN4uoSAqadQp" LanguageVersion="2023.5.2" Version="0.128">
+  <NugetDependency Id="NkxBtTr8hOoNigSpbcTFdR" Location="VL.CoreLib" Version="2023.5.2" />
   <Patch Id="APFBYc3ryadNMXCUycaQDK">
     <Canvas Id="VZxxHWhqYjuLlXlvDdCXIG" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -15,8 +15,8 @@
       </p:NodeReference>
       <Patch Id="PFfDaLRccY9PbWwk3Oc9Yz">
         <Canvas Id="NrbeJxw6AQVLIXfi6tseMO" CanvasType="Group">
-          <Node Bounds="127,339,72,19" Id="DHq5F6sQ0oJNarOZpl8Jle">
-            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+          <Node Bounds="127,339,105,19" Id="DHq5F6sQ0oJNarOZpl8Jle">
+            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.Body.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Devices" />
               <CategoryReference Kind="Category" Name="AzureKinect" />
@@ -24,13 +24,15 @@
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="VCnxNEQNs87MO4OldRlRPf" Name="Device" Kind="InputPin" />
+            <Pin Id="Ib23nOYAYYTL8XW1pttpq0" Name="Model Path" Kind="InputPin" />
             <Pin Id="QCO748QJEOXMcmXLS3Jkzl" Name="Processing Mode" Kind="InputPin" />
             <Pin Id="Qk6ZdgRc8FvOrHwVnzsqd9" Name="GPU Device Id" Kind="InputPin" />
             <Pin Id="IP1K92mElD5MouWz37rHXk" Name="Sensor Orientation" Kind="InputPin" />
+            <Pin Id="TPt7KfHJ0uHN1TxlA4ByQR" Name="Smoothing Factor" Kind="InputPin" />
             <Pin Id="EqzzJ9GblEQMgvtBrSSsuL" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="127,484,60,19" Id="I63penQj5N3QLNSux7EX7n">
-            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.Body.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Skeletons" />
             </p:NodeReference>
@@ -39,17 +41,17 @@
             <Pin Id="K4xnyHJEJ4GOt1EWt4XTRU" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="663,481,66,19" Id="JBtgFOuZXJnPIyc5R1Uz1O">
-            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.Body.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="BodyImage" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
-            <Pin Id="B7p1GQqRDlpNW3sVW7xvd4" Name="Device" Kind="InputPin" />
+            <Pin Id="LK6ZiDePm8YMYBW8MNwwCz" Name="Frames" Kind="InputPin" />
             <Pin Id="DEgDYHXR2H4NoAnZPFWhMy" Name="Transformation" Kind="InputPin" />
             <Pin Id="KZVJRsmer5dM25mToTjXp5" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="GlM5yqOoRsCOk3jO9uuELs" Bounds="756,577,239,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-index-map">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -58,7 +60,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="AVtOtPDR4WNN3w4cjitSYI" Bounds="756,558,236,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking index map">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -67,7 +69,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="IFiUxNyIr6NPKYE4MeVxOK" Bounds="117,692,238,19" ShowValueBox="true" isIOBox="true" Value="https://docs.microsoft.com/de-de/azure/Kinect-dk/body-joints">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -76,7 +78,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="VWQTnIHJyZQNnAQB5DEQ6E" Bounds="117,672,207,19" ShowValueBox="true" isIOBox="true" Value="Azure Kinect body tracking joints">
-            <p:TypeAnnotation>
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -84,35 +86,37 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="127,199,85,19" Id="SuDWtKlIJEWQLOw8azSO0k">
-            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.vl">
+          <Node Bounds="127,169,105,19" Id="SuDWtKlIJEWQLOw8azSO0k">
+            <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AzureKinect" />
             </p:NodeReference>
             <Pin Id="JE1fIcby3FTNd9quTaJjKG" Name="Device Index" Kind="InputPin" />
+            <Pin Id="L4oW3xKiKtHOn4h5gB36dJ" Name="Color Format" Kind="InputPin" />
             <Pin Id="NSqOPW2yFWONlTFg7BoJ20" Name="Color Resolution" Kind="InputPin" />
             <Pin Id="AxsB8QaO20tNEJfqTy3hTc" Name="Depth Mode" Kind="InputPin" />
             <Pin Id="NXMzOtam3npLf9lZR73D39" Name="FPS" Kind="InputPin" />
-            <Pin Id="Jq7WQ2svnAiNzSMITGRu1H" Name="Wired Sync Mode" Kind="InputPin" />
+            <Pin Id="C8auH8gBQPrQMlSdTTXvFx" Name="Enabled" Kind="InputPin" />
             <Pin Id="C9yqBBGw3SXNtPuK10bJ1i" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="H2fA7kWKNkELgFwsSL3Ddj" Name="Firmware Info" Kind="OutputPin" />
           </Node>
-          <Pad Id="BpdESBzE6k9NbcmdLZwcmp" Comment="Processing Mode" Bounds="151,254,47,15" ShowValueBox="true" isIOBox="true" Value="Gpu">
-            <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastSymbolSource="Microsoft.Azure.Kinect.BodyTracking.dll">
+          <Pad Id="BpdESBzE6k9NbcmdLZwcmp" Comment="Processing Mode" Bounds="169,254,72,15" ShowValueBox="true" isIOBox="true" Value="Gpu">
+            <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
               <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MkcsZoEoKUGOwngu1evBSA" Comment="GPU Device Id" Bounds="174,289,35,15" ShowValueBox="true" isIOBox="true" Value="0">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+          <Pad Id="MkcsZoEoKUGOwngu1evBSA" Comment="GPU Device Id" Bounds="189,289,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="ChsKYEl4MhPOHmsVeS1Z7i" Comment="Sensor Orientation" Bounds="196,318,122,15" ShowValueBox="true" isIOBox="true" Value="Default">
-            <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastSymbolSource="Microsoft.Azure.Kinect.BodyTracking.dll">
+          <Pad Id="ChsKYEl4MhPOHmsVeS1Z7i" Comment="Sensor Orientation" Bounds="209,318,122,15" ShowValueBox="true" isIOBox="true" Value="Default">
+            <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
               <Choice Kind="TypeFlag" Name="SensorOrientation" />
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="TmFXg6CM2FyNdlVYURuJI0" Bounds="201,487,164,42" ShowValueBox="true" isIOBox="true" Value="&lt; Returns a spread of Skeletons">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -121,7 +125,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="115,556,359,86" Id="GignFY0ghbyNjnA5GCHTtU">
-            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -133,7 +137,7 @@
               <Patch Id="VPVlK3DjwV2PJQuZe6Sf93" Name="Update" ManuallySortedPins="true" />
               <Patch Id="EbohkJ3bLyGMLK2ZsZoZwI" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="357,585,105,26" Id="GMSOUpL2p9CQGcSnLKg7w0">
-                <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Skeleton" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+                <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Skeleton" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Split" />
                   <CategoryReference Kind="RecordType" Name="Skeleton" NeedsToBeDirectParent="true" />
@@ -147,7 +151,7 @@
                 <Pin Id="G33gfAztzk8QEJhZrmxFwj" Name="Joint Confidence Levels" Kind="OutputPin" />
               </Node>
               <Node Bounds="127,584,65,19" Id="EjT9Ax60r61MaInrWOLHDe">
-                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Stickman" />
                 </p:NodeReference>
@@ -158,7 +162,7 @@
                 <Pin Id="G4UMcWV0jsiORNUAZ6Fy2z" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="211,584,125,19" Id="IkS3W013JMrOAfhFPZR9j1">
-                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastSymbolSource="VL.Devices.AzureKinect.Body.vl">
+                <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Boxman" />
                 </p:NodeReference>
@@ -174,7 +178,7 @@
             </Patch>
           </Node>
           <Pad Id="Kuh7kWcPRADMafue5hCW4s" Bounds="753,485,171,65" ShowValueBox="true" isIOBox="true" Value="&lt; Returns an image with the segmentation map for each detected body&#xD;&#xA;&#xD;&#xA;">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -183,7 +187,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="EJQFUBr0tEoMzWByOBHtcT" Bounds="334,765,246,153" ShowValueBox="true" isIOBox="true" Value="Both Skeletons and BodyImage are also available as &quot;Reactive&quot; versions in the nodebrowser if you enable &quot;Advanced&quot; nodes. &#xD;&#xA;&#xD;&#xA;The reactive versions allow you to apply computations to the images in a background thread.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -192,7 +196,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="GcYIAWsjwbQMTeEn1U0z9f" Bounds="482,590,223,141" ShowValueBox="true" isIOBox="true" Value="&lt; A skeleton can be quickly drawn using Stickman or  Boxman or split into its components using a Split [Skeleton] node.&#xD;&#xA;&#xD;&#xA;Stickman and Boxman require VL.Skia3d for drawing!">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -208,7 +212,6 @@
           <Fragment Id="R56Abdr1Rw3OEfJsdkIY8m" Patch="H2XlLgF6scLOXsDx75hd3r" Enabled="true" />
         </ProcessDefinition>
         <Link Id="U9uNUy022XKPScItJHn12w" Ids="EqzzJ9GblEQMgvtBrSSsuL,LEy95dR6rymPjbgduOaEv5" />
-        <Link Id="I7yhaIq0hb7PeWUJu07ofE" Ids="EqzzJ9GblEQMgvtBrSSsuL,B7p1GQqRDlpNW3sVW7xvd4" />
         <Link Id="P9UX3fvYUvFNwc60WXfI8b" Ids="C9yqBBGw3SXNtPuK10bJ1i,VCnxNEQNs87MO4OldRlRPf" />
         <Link Id="Bnm5BXbmmmUNp1A8UnZ5VA" Ids="BpdESBzE6k9NbcmdLZwcmp,QCO748QJEOXMcmXLS3Jkzl" />
         <Link Id="KcIGPTa2s7CNne4rxVQQIh" Ids="MkcsZoEoKUGOwngu1evBSA,Qk6ZdgRc8FvOrHwVnzsqd9" />
@@ -217,10 +220,11 @@
         <Link Id="KP5qpF810TnNRSAJBcNSS4" Ids="Mv6VJmyIKZzMWkfzYwBcBK,C5DwC4MSDKnNf7M90cF1TP" />
         <Link Id="E8W2YPDYLfIPQpmPAO8QFI" Ids="Mv6VJmyIKZzMWkfzYwBcBK,A2Ed8YXJJWoL0J7eVh8ctD" />
         <Link Id="FEvVC5K31TUL9tlNTITQpn" Ids="Mv6VJmyIKZzMWkfzYwBcBK,PrksQsFeWMqPPyDoLQYvHC" />
+        <Link Id="D6zyiG0E97pL3a46beDNHC" Ids="EqzzJ9GblEQMgvtBrSSsuL,LK6ZiDePm8YMYBW8MNwwCz" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LqN860VbNwDMgtD9a8XgD9" Location="VL.Skia" Version="2020.1.2-0122-ga74ffb9640" />
+  <NugetDependency Id="LqN860VbNwDMgtD9a8XgD9" Location="VL.Skia" Version="2023.5.2" />
   <NugetDependency Id="RZzgwQ5hDLQQVOrRCGYkHo" Location="VL.Devices.AzureKinect" Version="0.0.0.0" />
   <NugetDependency Id="OGsewH10MyqNIwMhEJjDiF" Location="VL.Devices.AzureKinect.Body" Version="0.0.0.0" />
 </Document>

@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="R5uxCrytiOJPQf4cthqaWN">
         <Canvas Id="Ogtn9ksNkhbPGyjcpbZgl3" CanvasType="Group">
-          <Node Bounds="283,143,105,19" Id="JAGcPhwsLYQN1rj4qXhq9O">
+          <Node Bounds="283,113,105,19" Id="JAGcPhwsLYQN1rj4qXhq9O">
             <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AzureKinect" />
@@ -224,6 +224,11 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="JddAujUehBUPNPCtlXwz5z" Comment="Model Path" Bounds="305,200,599,16" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\Azure Kinect Body Tracking SDK\sdk\windows-desktop\amd64\release\bin\dnn_model_2_0_lite_op11.onnx">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="O7GbxEFEOTIOwtaeGGP8yH" Comment="Model Path" Bounds="304,169,599,16" ShowValueBox="true" isIOBox="true" Value="C:\Program Files\Azure Kinect Body Tracking SDK\sdk\windows-desktop\amd64\release\bin\dnn_model_2_0_op11.onnx">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
