@@ -11,4 +11,11 @@
 	<OutputPath>..\lib\</OutputPath>
   </PropertyGroup>
 
+  <!-- The modified version inlcuding the Playback API (https://github.com/microsoft/Azure-Kinect-Sensor-SDK/pull/1711) -->
+  <ItemGroup>
+    <Reference Include="Microsoft.Azure.Kinect.Sensor">
+      <HintPath>..\..\VL.Devices.AzureKinect\dependencies\Microsoft.Azure.Kinect.Sensor\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
