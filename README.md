@@ -1,5 +1,5 @@
 # VL.Devices.AzureKinect.Body
-A package for using Microsoft's Azure Kinect body tracking in VL.
+A package for using Azure Kinect body tracking in VL.
 
 Try it with vvvv, the visual live-programming environment for .NET  
 Download: http://visualprogramming.net
