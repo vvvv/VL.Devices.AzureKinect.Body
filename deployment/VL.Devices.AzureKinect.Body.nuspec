@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.AzureKinect.Body</id>
-    <version>1.4.3</version>
+    <version>1.5.0</version>
     <title>VL.Devices.AzureKinect.Body</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -13,7 +13,7 @@
     <tags>VL, tracking, body, skeleton</tags>
 	<license type="expression">LGPL-3.0-only</license>
     <dependencies>
-		  <dependency id="VL.Devices.AzureKinect" version="1.4.3" />
+		  <dependency id="VL.Devices.AzureKinect" version="1.5.0" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
