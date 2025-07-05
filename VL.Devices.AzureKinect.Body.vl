@@ -1915,7 +1915,7 @@
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
                 <Choice Kind="OperationDefinition" Name="Operation" />
               </p:NodeReference>
-              <Patch Id="Sh1e3wCgT2JObdJNWwXwMf">
+              <Patch Id="Sh1e3wCgT2JObdJNWwXwMf" IsGeneric="true">
                 <Node Bounds="792,947,65,19" Id="D8UAVZ9C5ShPoiNevjmxg5">
                   <p:NodeReference LastCategoryFullName="Primitive.Enum" LastDependency="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2041,7 +2041,7 @@
               <Pin Id="Fvu8rSlDWuPODaIIsKkP2i" Name="Enabled" Kind="InputPin" />
               <Pin Id="VRhDc3BOMLnPg1qB58Wic1" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="512,319,105,26" Id="CMmvzucrag2OsPcRupTeED">
+            <Node Bounds="512,319,125,26" Id="CMmvzucrag2OsPcRupTeED">
               <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Skeleton" LastDependency="VL.Devices.AzureKinect.Body.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
@@ -2200,7 +2200,7 @@
                       <Pin Id="KerBlnpVTZfLHezowTaWnL" Name="Translation" Kind="InputPin" />
                       <Pin Id="UuQ9neukIoyPQBOJvvGw2z" Name="Rotation" Kind="InputPin" />
                       <Pin Id="U1m2Paz0P1pNm4zLkXsQTH" Name="Length" Kind="InputPin" />
-                      <Pin Id="U05vGCPs2dUMiRSVIWQcGf" Name="Direction" Kind="InputPin" DefaultValue="True">
+                      <Pin Id="U05vGCPs2dUMiRSVIWQcGf" Name="Direction" Kind="InputPin" DefaultValue="False">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
                           <Choice Kind="TypeFlag" Name="Boolean" />
                         </p:TypeAnnotation>
@@ -2237,7 +2237,7 @@
                         <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="C5TdbPecFw5OM3TpekEgj8" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="Ez2ONTFqdD9NAWOefjAF7G" Name="Value" Kind="InputPin" DefaultValue="Left">
+                      <Pin Id="Ez2ONTFqdD9NAWOefjAF7G" Name="Value" Kind="InputPin" DefaultValue="Right">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -2290,7 +2290,7 @@
                         <CategoryReference Kind="StringType" Name="String" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="FzetJwdfyxLPMivSJlBX1y" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="R2etfYZCzTkMS1tn76eVpB" Name="Value" Kind="InputPin" DefaultValue="Right">
+                      <Pin Id="R2etfYZCzTkMS1tn76eVpB" Name="Value" Kind="InputPin" DefaultValue="Left">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
                           <Choice Kind="TypeFlag" Name="String" />
                         </p:TypeAnnotation>
@@ -2334,7 +2334,7 @@
                       <Pin Id="SRENPun1ChBN4RihDITzCV" Name="Translation" Kind="InputPin" />
                       <Pin Id="V1Hga1wbxzoOsSm7RFkZj4" Name="Rotation" Kind="InputPin" />
                       <Pin Id="ONTwd1JffO0O3A5CsfxdMC" Name="Length" Kind="InputPin" />
-                      <Pin Id="UdutolXIBuXOukxv28GlKo" Name="Direction" Kind="InputPin" />
+                      <Pin Id="UdutolXIBuXOukxv28GlKo" Name="Direction" Kind="InputPin" DefaultValue="True" />
                       <Pin Id="PI7kaHGbgCcMd43Rvk9A1V" Name="Color" Kind="InputPin" />
                       <Pin Id="JXV9HtmpbZTOcef1FqTKb2" Name="Stroke Width" Kind="InputPin" />
                       <Pin Id="VhKOFN5V45TQSXtcdua1Ve" Name="Thickness" Kind="InputPin" />
@@ -2560,7 +2560,6 @@
           <Link Id="FSWboKRGzzJPwM7o5Cr887" Ids="I2lweR5OFXeNjUIUgNVxDt,T4ppLmBzRpaMlNUUvxYzxq" />
           <Link Id="G1I9meED1UzOgBrBY8Z4z3" Ids="V8g1YGkQYWaNSeTxztp8Z3,FZE9EiNU4QdOnqCnqrSR6J" />
           <Link Id="RtPwCXAJZ8DPcKcYmzJWE7" Ids="UY2cQSiEh1pP2lu7TAkWgp,FzetJwdfyxLPMivSJlBX1y" />
-          <Link Id="J25nsbF1qs0MdE7zcI5ekY" Ids="KqH0OiygQjnLGI1oYL4XoS,QJK3YpXz5uMLmYH3NfCd0L" />
           <Link Id="SIPTRyWu6QNLwrmnizEKKK" Ids="R3zGv5uXRmIM6F4an572m8,OzNMzrQd41eLnQPqgMpuvW" />
           <Link Id="OcFSziKGCeGMHgI5l3VhKS" Ids="BP5tQ6Hs9QdO2l2EFr1luj,BiJBj0HFhLRPEJigX6khaq" />
           <Link Id="TTjHQWnIpCwQT0XFZ42AoO" Ids="NE5mHctVPCiOs7yFScbKYc,KerBlnpVTZfLHezowTaWnL" />
@@ -2604,7 +2603,6 @@
           <Link Id="FNJyixFM5ZJMdwacykWzkX" Ids="Vf4dbRjebe9Qdx5fmNNSpn,SexcMW2S3BgN2dqxLoUplN" />
           <Link Id="LP1hHInYdMALpxYnsg1C7E" Ids="G9Kba9pKRq8NNuL4yMbVuD,C5TdbPecFw5OM3TpekEgj8" />
           <Link Id="LMQylXK9UUPNr5sYqlyhlD" Ids="BP5tQ6Hs9QdO2l2EFr1luj,AUsGXKQqcTNNqtQhOlv58o" />
-          <Link Id="PuIS2iQGMpVPxiwuszUa9R" Ids="VeJuO0wJvDYLgLzuUDFigN,U05vGCPs2dUMiRSVIWQcGf" />
           <Link Id="QibjxA2MDKUOfwwVZOUUPK" Ids="PgdRVLG04FZOAgJbY6jCds,Oh6YM1hEfasPcKwkWAt5qT" IsHidden="true" />
           <Link Id="UBPKNZowJEGLXUmLPjrgtj" Ids="Oh6YM1hEfasPcKwkWAt5qT,JS95EN5T8SrQSoRtDyvgaz" />
           <Link Id="R2VHzWHghcEPUYKk7IhQmA" Ids="PgdRVLG04FZOAgJbY6jCds,C8qDVbV9hpUPo0JzJwBKwa" IsHidden="true" />
@@ -2613,6 +2611,8 @@
           <Link Id="GYPz2yGvNm5NQFaXt1CRyc" Ids="GpkqqmSrnEoQUeKV4p7oNw,LP6MMMaEr0ILc4zbkev1jy" IsHidden="true" />
           <Link Id="O0lkdckk8euOfzxLK1OgY4" Ids="H5gofjVLvVZO43dR6QwjMB,QZw7u6DMCfzOD2HpmV7Gge" />
           <Link Id="SF31jCgz2lQMyVAsO4dmCa" Ids="LP6MMMaEr0ILc4zbkev1jy,JXV9HtmpbZTOcef1FqTKb2" />
+          <Link Id="KrlGAZQctbEOj23aF6GEcy" Ids="KqH0OiygQjnLGI1oYL4XoS,QJK3YpXz5uMLmYH3NfCd0L" />
+          <Link Id="Muzy5fSzs4ZLEcPa3gjfgw" Ids="VeJuO0wJvDYLgLzuUDFigN,U05vGCPs2dUMiRSVIWQcGf" />
         </Patch>
       </Node>
       <!--

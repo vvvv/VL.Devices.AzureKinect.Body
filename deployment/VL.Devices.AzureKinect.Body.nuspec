@@ -2,20 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.AzureKinect.Body</id>
-    <version>1.5.0</version>
+    <version>1.6.0</version>
     <title>VL.Devices.AzureKinect.Body</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
     <projectUrl>https://github.com/vvvv/VL.Devices.AzureKinect.Body</projectUrl>
+	<repository type="git" url="https://github.com/vvvv/VL.Devices.AzureKinect.Body.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Azure Kinect BodyTracking for vvvv</summary>
     <description>Azure Kinect BodyTracking for vvvv</description>
-    <tags>VL, tracking, body, skeleton</tags>
+    <tags>VL, tracking, body, skeleton, joints</tags>
 	<license type="expression">LGPL-3.0-only</license>
     <dependencies>
-		  <dependency id="VL.Devices.AzureKinect" version="1.5.0" />
+		  <dependency id="VL.Devices.AzureKinect" version="1.6.0" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
+	<readme>docs\README.md</readme>
   </metadata>
   <files>
   	<file src="..\lib\**" target="lib\" exclude="" />
@@ -23,5 +24,6 @@
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
 	<file src="nugeticon.png" target="icon\" />
+	<file src="..\README.md" target="docs\" />
   </files>
 </package>
