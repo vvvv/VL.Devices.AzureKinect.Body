@@ -1,3 +1,5 @@
+## NOTE: This repo is now archived as it was merged into the [VL.Devices.AzureKinect](https://github.com/vvvv/VL.Devices.AzureKinect) repo!
+
 # VL.Devices.AzureKinect.Body
 A package for using Azure Kinect body tracking in VL.  
 Based on the [Azure Kinect Body Tracking SDK 1.1.2](https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/body-sdk-download).
